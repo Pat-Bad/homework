@@ -4,7 +4,8 @@ class ImageComponent extends Component {
         return(
             <img
             src = {this.props.src}
-            alt = {this.props.alt}/>
+            alt = {this.props.alt}
+            className="images"/>
         )
     }
 

@@ -13,12 +13,12 @@ function App() {
 				</section>
 				<section>
 					<ImageComponent
-						source="https://www.placedog.net/500/500"
-						altText="doggo"
+						src="https://www.placedog.net/500/500"
+						alt="doggo"
 					/>
 					<ImageComponent
-						source="https://www.placedog.net/300/300"
-						altText="doggo2"
+						src="https://www.placedog.net/300/300"
+						alt="doggo2"
 					/>
 				</section>
 			</main>
