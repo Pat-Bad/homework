@@ -1,9 +1,12 @@
-const ImageComponent = function(props){
-    return(
-        <img
-        src = {props.source}
-        alt={props.altText}></img>
-    )
+import { Component } from "react"
+class ImageComponent extends Component {
+    render(){
+        return(
+            <img
+            src = {this.props.src}
+            alt = {this.props.alt}/>
+        )
+    }
 
 }
 
